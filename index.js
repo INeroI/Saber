@@ -51,7 +51,7 @@ bot.on("message", function(message) {
             break;
 
         case "kiss":
-            message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss.gif"]})
+                message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss.gif"]})
 
         case "dormir":
             message.channel.send("I love u Master!:heart:",{files:["./fichier/dormir.gif"]})
@@ -62,7 +62,11 @@ bot.on("message", function(message) {
         
 });
 
-
+function random(min, max) {
+    min = Math.cell(0);
+    max = Math.floor(4);
+    randnum = Math.floor(Math.random() * (max - min + 1) + min);
+}
 
 
 bot.login(TOKEN);
