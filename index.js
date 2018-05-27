@@ -18,10 +18,6 @@ bot.on("message", function(message) {
 
     switch (args[0].toLowerCase()) {
         
-        case "ping":
-            message.channel.sendMessage("Pong!")
-            break;
-        
         case "help":
             var help = new Discord.RichEmbed()
                 .setTitle("Commandes!")
