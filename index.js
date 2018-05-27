@@ -17,10 +17,7 @@ bot.on("message", function(message) {
     var args = message.content.substring(prefix.length).split(" ");
 
     switch (args[0].toLowerCase()) {
-<<<<<<< HEAD
-=======
                                                                     //Commande de Base
->>>>>>> ec6bc78a8edfcf52c54b11565b958ecac4c9e16e
         
         case "help":
             var help = new Discord.RichEmbed()
@@ -51,7 +48,14 @@ bot.on("message", function(message) {
             break;
 
         case "kiss":
-                message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss.gif"]})
+            number = 3;
+            var random = Math.floor (Math.random() * (number - 1 + 1)) + 1
+            switch (random) {
+                case 1:message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss.gif"]}); break;
+                case 2:message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss2.gif"]}); break;
+                case 2:message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss3.gif"]}); break;
+            }
+            break;
 
         case "dormir":
             message.channel.send("I love u Master!:heart:",{files:["./fichier/dormir.gif"]})
@@ -67,11 +71,6 @@ bot.on("message", function(message) {
         
 });
 
-function random(min, max) {
-    min = Math.cell(0);
-    max = Math.floor(4);
-    randnum = Math.floor(Math.random() * (max - min + 1) + min);
-}
 
 
 bot.login(TOKEN);
