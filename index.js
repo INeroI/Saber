@@ -71,6 +71,10 @@ bot.on("message", function(message) {
             message.channel.send("I'm KAWAIII!",{files:["./fichier/kawaii.jpg"]})
             break;
 
+        case "ubw" :
+            message.channel.send("I am the bone of my sword. \nSteel is my body, and fire is my blood. \nI have created over a thousand blades. \nUnknown to Death, \nNor known to Life. \nHave withstood pain to create many weapons. \nYet, those hands will never hold anything. \nSo as I pray, \nUnlimited Blade Works!")
+            break;
+
                                                                 //Commande Modération
                      
                                                                         
