@@ -28,6 +28,7 @@ bot.on("message", function(message) {
                 .addField("*kawaii","Permet de voir des photos KAWAIIII!")
                 .addField("*dormir","Tu vois quelqu'un qui dort (comme moi dans Stay Night)!")
                 .addField("*kiss","Tu me fais un bisous. Moi aussi je m'aime!")
+                .addField("*ubw","Le Noble Phantasm de Emiya")
                 .setColor("0x0040ff")
             message.channel.sendEmbed(help);
             break;
