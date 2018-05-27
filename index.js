@@ -53,15 +53,23 @@ bot.on("message", function(message) {
             switch (random) {
                 case 1:message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss.gif"]}); break;
                 case 2:message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss2.gif"]}); break;
-                case 2:message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss3.gif"]}); break;
+                case 3:message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss3.gif"]}); break;
             }
             break;
 
         case "dormir":
-            message.channel.send("I love u Master!:heart:",{files:["./fichier/dormir.gif"]})
+        number2 = 3;
+        var random2 = Math.floor (Math.random() * (number2 - 1 + 1)) + 1
+        switch (random2) {
+            case 1:message.channel.send("RHHHH!",{files:["./fichier/dormir.gif"]}); break;
+            case 2:message.channel.send("RHHHH!",{files:["./fichier/dormir2.gif"]}); break;
+            case 3:message.channel.send("RHHHH!",{files:["./fichier/dormir3.gif"]}); break;
+        }
+        break;
 
         case "kawaii" :
             message.channel.send("I'm KAWAIII!",{files:["./fichier/kawaii.jpg"]})
+            break;
 
                                                                 //Commande Modération
                      
