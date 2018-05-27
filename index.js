@@ -17,6 +17,10 @@ bot.on("message", function(message) {
     var args = message.content.substring(prefix.length).split(" ");
 
     switch (args[0].toLowerCase()) {
+<<<<<<< HEAD
+=======
+                                                                    //Commande de Base
+>>>>>>> ec6bc78a8edfcf52c54b11565b958ecac4c9e16e
         
         case "help":
             var help = new Discord.RichEmbed()
@@ -54,6 +58,11 @@ bot.on("message", function(message) {
 
         case "kawaii" :
             message.channel.send("I'm KAWAIII!",{files:["./fichier/kawaii.jpg"]})
+
+                                                                //Commande Modération
+                     
+                                                                        
+
         }
         
 });
