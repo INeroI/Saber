@@ -73,7 +73,7 @@ bot.on("message", function(message) {
             break;
 
         case "ubw" :
-            message.channel.send("I am the bone of my sword. \nSteel is my body, and fire is my blood. \nI have created over a thousand blades. \nUnknown to Death, \nNor known to Life. \nHave withstood pain to create many weapons. \nYet, those hands will never hold anything. \nSo as I pray, \nUnlimited Blade Works!")
+            message.channel.send("I am the bone of my sword. \nSteel is my body, and fire is my blood. \nI have created over a thousand blades. \nUnknown to Death, \nNor known to Life. \nHave withstood pain to create many weapons. \nYet, those hands will never hold anything. \nSo as I pray, \nUnlimited Blade Works!", {files:["./fichier/ubw.gif"]})
             break;
 
                                                                 //Commande Modération
