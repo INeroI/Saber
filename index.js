@@ -69,7 +69,7 @@ bot.on("message", function(message) {
         break;
 
         case "kawaii" :
-            message.channel.send("I'm KAWAIII!",{files:["./fichier/kawaii.jpg"]})
+            message.channel.send("I'm KAWAIII!", {files:["./fichier/kawaii.jpg"]})
             break;
 
         case "ubw" :
