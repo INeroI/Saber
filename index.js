@@ -78,7 +78,7 @@ bot.on("message", function(message) {
             break;
 
         case "servant" :
-            number3 = 6;
+            number3 = 7;
             var random3 = Math.floor (Math.random() * (number3 - 1 + 1)) + 1
             switch (random3) {
                 case 1:
@@ -145,6 +145,17 @@ bot.on("message", function(message) {
                     .setColor("0x6D071A")
                     .setImage("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-396093.png")
                     message.channel.sendEmbed(Mordred);
+                    break;
+
+                case 7:
+                var heracles = new Discord.RichEmbed()
+                    .setTitle("Héraclès")
+                    .setDescription("Classe: Berserker")
+                    .addField("Noble Phantasm:","God Hand")
+                    .addField("Histoire:","Héros de la mythologie grecque, Héraclès est le fils de Zeus et est le héros le plus fort et célèbre. Son exploit est d'avoir fait les travaux d'Eurysthée suite au fait qu'il a tué ses enfants et sa femme.")
+                    .setColor("0x6C6464")
+                    .setImage("https://cdn.discordapp.com/attachments/451469876956233749/451813711988916224/berserker.jpg")
+                    message.channel.sendEmbed(heracles);
                     break;
 
             }
