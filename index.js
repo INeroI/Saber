@@ -140,7 +140,7 @@ bot.on("message", function(message) {
                 var Mordred = new Discord.RichEmbed()
                     .setTitle("Mordred")
                     .setDescription("Classe: Saber")
-                    .addField("Noble Phantasm:","Luna Break Manual")
+                    .addField("Noble Phantasm:","Clarent Blood Arthur")
                     .addField("Histoire:","Mordred est un Homonculus qui est un clone du Roi Arthur dans le but de prendre sa place mais son père (qui est Arthur) l'a rejeté ce qui lui a mené a une rébéllion et voulut le tuer.")
                     .setColor("0x6D071A")
                     .setImage("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-396093.png")
