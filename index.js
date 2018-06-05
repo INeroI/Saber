@@ -77,6 +77,10 @@ bot.on("message", function(message) {
             message.channel.send("I am the bone of my sword. \nSteel is my body, and fire is my blood. \nI have created over a thousand blades. \nUnknown to Death, \nNor known to Life. \nHave withstood pain to create many weapons. \nYet, those hands will never hold anything. \nSo as I pray, \nUnlimited Blade Works!", {files:["./fichier/ubw.gif"]})
             break;
 
+            case "exa" :
+            message.channel.send("Exa \n \nExa t'es tellement foncé \nQue l'ombre va te camoufler \nQuand je te vois dans le couloir \nJ'ai du mal à t'apercevoir \n \nQuand tu go play a CS:GO \nLes russki qui te met en pleurs \nTe met de très mauvaise humeur \nEt monter t'es pas au niveau \n \nExa est vraiment un clochard \nIl prend le matos de ses potes \nIl taxe même ce qu'il porte \nIl agit vraiment comme un noir \n \nMais on aime Exa comme Meme \nQue meme si il a la flemme \nEt qu'il vole des fois a Darty \nEt puis il nous aime aussi \n \nNero")
+                break;
+
         case "servant" :
             number3 = 7;
             var random3 = Math.floor (Math.random() * (number3 - 1 + 1)) + 1
@@ -157,6 +161,8 @@ bot.on("message", function(message) {
                     .setImage("https://cdn.discordapp.com/attachments/451469876956233749/451813711988916224/berserker.jpg")
                     message.channel.sendEmbed(heracles);
                     break;
+
+        
 
             }
         break;
