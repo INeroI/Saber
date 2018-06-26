@@ -12,7 +12,7 @@ bot.on("ready", function() {
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
 
-    if (!message.content.startsWith(prefix)) return;
+    if (!message.content.includes(prefix)) return;
 
     var args = message.content.substring(prefix.length).split(" ");
 
@@ -30,6 +30,7 @@ bot.on("message", function(message) {
                 .addField("*kiss","Tu me fais un bisous. Moi aussi je m'aime!")
                 .addField("*ubw","Le Noble Phantasm de Emiya.")
                 .addField("*servant","Donne un personnage de Fate aléatoire comme moi!")
+                .addField("*kuko","Regarde Kuko comment brûle Jeanne D'Arc")
                 .setColor("0x0040ff")
             message.channel.sendEmbed(help);
             break;
@@ -58,6 +59,10 @@ bot.on("message", function(message) {
                 case 3:message.channel.send("I love u Master!:heart:",{files:["./fichier/kiss3.gif"]}); break;
             }
             break;
+
+        case "kuko":
+        message.channel.send("Tiens dans tes dents Jeanne D'Arc ! <@303917875708690443>", {files:["./fichier/flame.gif"]}); 
+        break;
 
         case "dormir":
             number2 = 3;
